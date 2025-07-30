@@ -5,6 +5,7 @@
   --primary-color: #08070b;
   --second-color: #18171f;
   --three-color: #23222a;
+  --four-color: #807c92;
 }
 body{
     background-color: var(--primary-color);
