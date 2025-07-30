@@ -11,3 +11,9 @@ body{
 input[type='text']{
     background-color: #18171f;
 }
+
+.box{
+  padding: 2rem;
+  width: 50%; 
+  margin: 0rem auto;
+}
