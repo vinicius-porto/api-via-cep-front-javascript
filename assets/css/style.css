@@ -27,3 +27,7 @@ input[type='text']{
 .box h1{
   color: var(--four-color);
 }
+
+#btnBuscar{
+  background-color: var(--five-color);
+}
