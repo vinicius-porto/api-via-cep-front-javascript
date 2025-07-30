@@ -30,6 +30,7 @@ input[type='text']{
 
 #btnBuscar{
   background-color: var(--five-color);
+  color: var(--three-color);
 }
 
 .img-wrapper{
