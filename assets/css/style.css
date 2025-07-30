@@ -36,3 +36,12 @@ input[type='text']{
    display: flex; 
    flex-direction: column;
 }
+
+.logo{
+  width: 35%;
+  margin: 0rem auto;
+}
+.imagem{
+  width: 35%;
+  margin: 0rem auto;
+}
