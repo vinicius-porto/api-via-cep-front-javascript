@@ -31,3 +31,8 @@ input[type='text']{
 #btnBuscar{
   background-color: var(--five-color);
 }
+
+.img-wrapper{
+   display: flex; 
+   flex-direction: column;
+}
