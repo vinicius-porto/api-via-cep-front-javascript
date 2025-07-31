@@ -50,10 +50,12 @@ input[type='text']{
 .logo{
   width: 35%;
   margin: 0rem auto;
+  margin-bottom: 2rem;
 }
 .imagem{
   width: 41%;
   margin: 0rem auto;
+  margin-bottom: 0.9rem;
 }
 
 
