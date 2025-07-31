@@ -33,6 +33,7 @@ input[type='text']{
 #btnBuscar{
   background-color: var(--five-color);
   color: var(--three-color);
+  border: 0;
 }
 
 .img-wrapper{
