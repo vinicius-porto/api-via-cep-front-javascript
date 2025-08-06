@@ -6,7 +6,7 @@
   --second-color: #18171f;
   --three-color: #23222a;
   --four-color: #807c92;
-  --five-color: #a3ffae;
+  --five-color: #FFED67;
 }
 body{
     background-color: var(--primary-color);
