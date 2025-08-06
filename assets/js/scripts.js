@@ -10,6 +10,14 @@ function modalAlerta()
 });
 }
 
+function modalErro404(error) {
+  Swal.fire({
+    icon: "error",
+    title: "Erro: 404",
+    text: error.message || "Recurso não encontrado",
+  });
+}
+
 function imprimirDados(data){
      
         Swal.fire({
@@ -37,7 +45,7 @@ const cep = document.getElementById("cep").value;
         
         })
         .catch(error => {
-          console.error('Erro: 404', error);
+          modalErro404(error);
         }); 
     }
  }

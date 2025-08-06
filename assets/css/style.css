@@ -1,6 +1,4 @@
-*{
-  font-family: 'Poppins', sans-serif;
-}
+*{ font-family: 'Poppins', sans-serif; }
 :root {
   --primary-color: #08070b;
   --second-color: #18171f;
@@ -8,10 +6,7 @@
   --four-color: #807c92;
   --five-color: #FFED67;
 }
-body{
-    background-color: var(--primary-color);
-}
-
+body{ background-color: var(--primary-color);}
 input[type='text']{
     background-color: var(--second-color);
     border: 1px solid var(--three-color);
@@ -19,20 +14,14 @@ input[type='text']{
     width: 60%;        
     margin: 0rem auto;
 }
-::placeholder{
-   color: var(--four-color)!important;
-}
+::placeholder{ color: var(--four-color)!important;}
 .box{
   padding: 2rem;
   width: 50%; 
   margin: 0rem auto;
   background-color: var(--three-color);
 }
-
-.box h1{
-  color: var(--four-color);
-}
-
+.box h1{ color: var(--four-color);}
 #btnBuscar{
   background-color: var(--five-color);
   color: var(--three-color);
@@ -41,58 +30,21 @@ input[type='text']{
   width: 60%;        
   margin: 0rem auto;
 }
-
 .img-wrapper{
    display: flex; 
    flex-direction: column;
 }
-
 .logo{
   width: 35%;
   margin: 0rem auto;
   margin-bottom: 2rem;
 }
-.imagem{
-  width: 41%;
-  margin: 0rem auto;
-  margin-bottom: 0.9rem;
-}
-
-
-
-
-
 @media (min-width: 576px) {
-  .box {
-    width: 100%;
-    background-color: transparent;
-  }
+  .box { width: 100%; background-color: transparent;}
 }
-
-
 @media (min-width: 768px) {
-  .box {
-    width: 60%;
-    background-color: transparent;
-  }
-
-  input[type='text']{
-    padding: 0.9rem;  
-  }
+  .box { width: 60%; background-color: transparent;} input[type='text']{ padding: 0.9rem;}
 }
-
-
 @media (max-width: 575.98px) {
-  .box {
-    background-color: transparent;
-    width: auto;
-  }
-  input[type='text'],#btnBuscar{
-      width: 100%;
-  }
-
- .logo{
-    width: 68%;
-  }
-  
+  .box { background-color: transparent; width: auto; } input[type='text'],#btnBuscar{ width: 100%; } .logo{ width: 68%;}
 }
