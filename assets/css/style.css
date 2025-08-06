@@ -19,7 +19,6 @@ input[type='text']{
   padding: 2rem;
   width: 50%; 
   margin: 0rem auto;
-  background-color: var(--three-color);
 }
 .box h1{ color: var(--four-color);}
 #btnBuscar{
@@ -39,12 +38,7 @@ input[type='text']{
   margin: 0rem auto;
   margin-bottom: 2rem;
 }
-@media (min-width: 576px) {
-  .box { width: 100%; background-color: transparent;}
-}
-@media (min-width: 768px) {
-  .box { width: 60%; background-color: transparent;} input[type='text']{ padding: 0.9rem;}
-}
-@media (max-width: 575.98px) {
-  .box { background-color: transparent; width: auto; } input[type='text'],#btnBuscar{ width: 100%; } .logo{ width: 68%;}
+@media (min-width: 576px) {.box { width: 100%;}}
+@media (min-width: 768px) {.box { width: 60%;} input[type='text']{ padding: 0.9rem;}}
+@media (max-width: 575.98px) {.box {  width: auto; } input[type='text'],#btnBuscar{ width: 100%; } .logo{ width: 68%;}
 }
