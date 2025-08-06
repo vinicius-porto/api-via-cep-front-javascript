@@ -1,9 +1,22 @@
 const btnBuscar = document.getElementById("btnBuscar"); 
- function validarEnviar()
+
+
+function modalAlerta()
+{
+   Swal.fire({
+  icon: "error",
+  title: "Oops...",
+  text: "Por favor, preencha o campo para buscar o cep!!",
+});
+}
+
+
+function validarEnviar()
  {
 const cep = document.getElementById("cep").value;
     if(cep === ''){
-        alert("Por favor, preencha o campo para buscar o cep");
+       
+      modalAlerta();
         
     } else{
         
