@@ -5,21 +5,19 @@
   --three-color: #23222a;
   --four-color: #807c92;
   --five-color: #FFED67;
+  --six-color: #ffff;
 }
 body{ background-color: var(--primary-color);}
-input[type='text']{
+input[type='text'],.form-control:focus{
     background-color: var(--second-color);
     border: 1px solid var(--three-color);
     padding: 0.9rem;
     width: 60%;        
     margin: 0rem auto;
+    color: var(--six-color);
 }
 ::placeholder{ color: var(--four-color)!important;}
-.box{
-  padding: 2rem;
-  width: 50%; 
-  margin: 0rem auto;
-}
+.box{ padding: 2rem; width: 50%; margin: 0rem auto;}
 .box h1{ color: var(--four-color);}
 #btnBuscar{
   background-color: var(--five-color);
@@ -29,16 +27,11 @@ input[type='text']{
   width: 60%;        
   margin: 0rem auto;
 }
-.img-wrapper{
-   display: flex; 
-   flex-direction: column;
-}
-.logo{
-  width: 35%;
-  margin: 0rem auto;
-  margin-bottom: 2rem;
-}
+.img-wrapper{ display: flex; flex-direction: column;}
+.logo{ width: 35%; margin: 0rem auto; margin-bottom: 2rem;}
 @media (min-width: 576px) {.box { width: 100%;}}
 @media (min-width: 768px) {.box { width: 60%;} input[type='text']{ padding: 0.9rem;}}
-@media (max-width: 575.98px) {.box {  width: auto; } input[type='text'],#btnBuscar{ width: 100%; } .logo{ width: 68%;}
-}
+@media (max-width: 575.98px) {.box {  width: auto; } input[type='text'],#btnBuscar{ width: 100%; } .logo{ width: 68%;}}
+div:where(.swal2-container) div:where(.swal2-popup){ background: var(--second-color)!important; border: 1px solid var(--five-color)!important; color: var(--six-color)!important;}
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled){ background-color: var(--five-color); color: var(--primary-color);}
+
