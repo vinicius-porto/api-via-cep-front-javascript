@@ -1,10 +1,10 @@
 *{ font-family: 'Poppins', sans-serif; }
 :root {
-  --primary-color: #08070b;
-  --second-color: #18171f;
+  --primary-color: #181212;
+  --second-color: #2A2A2A;
   --three-color: #23222a;
   --four-color: #807c92;
-  --five-color: #FFED67;
+  --five-color: #57FFA3;
   --six-color: #ffff;
 }
 body{ background-color: var(--primary-color);}
