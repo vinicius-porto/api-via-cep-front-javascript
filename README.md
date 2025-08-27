@@ -39,7 +39,6 @@ Facilitar a consulta de endereços a partir de um CEP, resolvendo o problema de 
 
 
 
-## Status
-Em desenvolvimento 🚧
+
 
 
